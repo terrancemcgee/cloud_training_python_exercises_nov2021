@@ -1,7 +1,11 @@
 
-# Replace each letter in the string by the letter `shift_num` away from it. 
+# Write a function that replaces each letter in a string by the letter
+# `shift_num` away from it in the alphabet. 
 # When the end of alphabet is reached, it returns back to the beginning.
-
+#
+# e.g.: for the letter 'y', and a `shift_num` of 3, the letter would be replaced by 'c'. 
+#
+# Hint this function should take 2 arguments: the string, and the shift value
 def simple_caesar(text, shift_num):
     # final string 
     result = ""

@@ -1,4 +1,5 @@
-# Python program to print Even Numbers in a List
+# Python program to print Even Numbers in a List.
+# Use a function and a loop.
 
 def get_even_numbers(int_list):
     even_numbers = []
@@ -11,6 +12,7 @@ def get_even_numbers(int_list):
             even_numbers.append(num)
 
     return even_numbers
+
 
 # list of numbers
 int_list = [10, 21, 4, 45, 66, 93]

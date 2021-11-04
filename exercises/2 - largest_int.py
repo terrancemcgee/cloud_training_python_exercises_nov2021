@@ -1,6 +1,6 @@
 # See: https://www.geeksforgeeks.org/python-program-to-find-largest-number-in-a-list/
 
-# Get the largest number in an array.
+# Write a function that returns the largest number in an list.
 # If a non int is passed, show appropriate error.
 def get_largest(int_list):
     largest = int_list[0]
