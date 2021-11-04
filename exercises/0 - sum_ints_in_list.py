@@ -1,3 +1,7 @@
+# Write a function that sums all the integers in a list. Return the sum. 
+#
+#  e.g. `sum_ints([2,4,6,8])` should return 20
+
 def sum_ints(int_list):
     sum = 0 
 

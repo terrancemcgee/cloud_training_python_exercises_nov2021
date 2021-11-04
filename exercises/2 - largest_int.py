@@ -2,6 +2,8 @@
 
 # Write a function that returns the largest number in an list.
 # If a non int is passed, show appropriate error.
+# 
+# e.g.: [5, 9, 35, 8 ] should return 35
 def get_largest(int_list):
     largest = int_list[0]
 
