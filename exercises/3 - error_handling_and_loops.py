@@ -13,7 +13,10 @@ from random import randrange
 #
 # - [postive_answers]
 #     - If the user requested a compliment, print a random compliment to the
-#       screen. Hint: you can get use `randrange(5)` to get a number from 0-4
+#       screen. 
+#
+#       Hint: If you import randrange `from random import randrange` you can get
+#       use `randrange(5)` to get a number from 0-4.
 #
 #     - Once you've printed the compliment. Ask the user again if they want a
 #       compliment. This should continue until the user enters a
@@ -33,6 +36,7 @@ from random import randrange
 #
 # Hint: You can use `While(True)` to loop infinitely. BE CAREFUL. There must be
 # an exit condition to your loop otherwise your program will go on forever!
+
 postive_answers = ['y', 'yes', 'yup', 'sure']
 negative_answers = ['n', 'no', 'nope', 'na']
 
