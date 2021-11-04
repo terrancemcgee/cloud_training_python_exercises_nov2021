@@ -7,6 +7,7 @@
 # e.g.: for the letter 'y', and a `shift_num` of 3, the letter would be replaced by 'c'. 
 #
 # Hint: this function should take 2 arguments: the string, and the shift value
+# Hint: ord('a') returns 97. chr(97) returns 'a' 
 def simple_caesar(text, shift_num):
     # final string 
     result = ""
