@@ -36,3 +36,9 @@ largest_with_error = get_largest(int_list_with_error)
 # print only if a value is returned ie no errors
 if(largest_with_error):
     print(largest_with_error)
+
+# Using standard libraries
+print(max(int_list))
+
+print(max(int_list_with_error))  # raises an error
+
